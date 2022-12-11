@@ -1,0 +1,31 @@
+* {
+    box-sizing:content-box
+}
+
+
+header {
+    background-color: #5cc5ef;
+}
+
+nav {
+    background-color: #ffb745;
+}
+
+main,
+aside {
+    background-color: #344d90;
+}
+
+main {
+    overflow: hidden;
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+footer {
+    background-color: rgb(119, 119, 119);
+}
