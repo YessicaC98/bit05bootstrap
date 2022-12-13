@@ -124,7 +124,6 @@ ol {
     color: #fff;
     padding: auto;
 }
-
 .form {
     width: 50%;
     min-width: 300px;
@@ -196,8 +195,6 @@ ol {
     color:#0df053;
     background: #ffff;
 }
-
-
 @media (max-width:1024px) {
     * {
         box-sizing: border-box;
