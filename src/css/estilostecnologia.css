@@ -36,6 +36,10 @@ main {
     width: 1440px;
     background-color: #344d90;
 }
+aside {
+    width: 1440px;
+    background-color: #344d90;
+}
 footer {
     height: 300px;
     background-color: rgb(119, 119, 119);
@@ -53,7 +57,6 @@ footer {
     width: 480px;
     float: left;
     border: 1px;
-
 }
 .Monitores {
     width: 480px;
@@ -92,6 +95,7 @@ footer {
     font-family: 'Alfa Slab One', 'cursive';
     color: #ffccbb;
     text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
+    padding: auto;
 }
 .parrafo {
     display: flex;
@@ -99,6 +103,7 @@ footer {
    align-items: center;
    font-family: 'Kalam', 'cursive';
    color: #fff;
+   padding: auto;
 }
 .imagen {
     display: flex;
@@ -106,14 +111,367 @@ footer {
     margin-right: auto;
     margin-left: auto;
     margin-right: auto;
+    padding: auto;
 }
 
 ul {
     font-family: 'Kalam', 'cursive';
     color: #fff;
+    padding: auto;
 }
 ol {
     font-family: 'Kalam', 'cursive';
     color: #fff;
+    padding: auto;
 }
 
+.form {
+    width: 50%;
+    min-width: 300px;
+    background: rgba(0,0,0,0.491);
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+.form_input {
+    width: 100%;
+    height: 40px;
+    background: rgba(0,0,0,0.7);
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid blue;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.form_text {
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid blue;
+}
+.form_text::placeholder {
+    font-size: 1.4rem;
+}
+.enviar{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 20px 0 20px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.enviar:hover {
+    background: rgb(21, 255, 0);
+}
+#correoformulario {
+    opacity: 0;
+}
+.btn-wsp {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom:30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px ;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+.btn-wsp:hover{
+    text-decoration: none;
+    color:#0df053;
+    background: #ffff;
+}
+
+
+@media (max-width:1024px) {
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header,
+    nav,
+    main,
+    aside,
+    footer {
+        color: white;
+    }
+    header,
+    nav,
+    footer {
+     width: 1024px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+    header {
+        height: 150px;
+        background-color: #5cc5ef;
+    }
+    nav {
+        height: 88px;
+        border: 2px solid black;
+        background-color: #ffb745;
+    }
+    main {
+        width: 1024px;
+        background-color: #344d90;
+    }
+    aside {
+        width: 1024px;
+        background-color: #344d90;
+    }
+    footer {
+        height: 300px;
+        background-color: rgb(119, 119, 119);
+    }
+    .contenedor1,
+    .crontenedor2,
+    .contenedor3,
+    .contenedor4,
+    .contenedor5,
+    .contenedo6,
+    .contenedor7 {
+      overflow: hidden;
+    }
+    .TecladosyMause {
+        width: 341px;
+        float: left;
+        border: 1px;
+    }
+    .Monitores {
+        width: 341px;
+        float: left;
+        border: 1px;
+    }
+    .DiscosDuros {
+        width: 341px;
+        float: left;
+        border: 1px;
+    }
+    .Diademas {
+        width: 341px;
+        float: left;
+        border: 1px;
+    }
+    .Routers{
+        width: 341px;
+        float: left;
+        border: 1px;
+    }
+    .SillasGamer {
+        width: 341px;
+        float: left;
+        border: 1px;
+    }
+    .PortátilesGaming {
+        width: 341px;
+        float: left;
+        border: 1px;
+    }
+}
+@media (max-width:768px){
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header,
+    nav,
+    main,
+    aside,
+    footer {
+        color: white;
+    }
+    header,
+    nav,
+    footer {
+     width: 768px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+    header {
+        height: 100px;
+        background-color: #5cc5ef;
+    }
+    nav {
+        height: 80px;
+        border: 2px solid black;
+        background-color: #ffb745;
+    }
+    main {
+        width: 768px;
+        background-color: #344d90;
+    }
+    aside {
+        width: 768px;
+        background-color: #344d90;
+    }
+    footer {
+        height: 300px;
+        background-color: rgb(119, 119, 119);
+    }
+    .contenedor1,
+    .contenedor2,
+    .contenedor3,
+    .contenedor4,
+    .contenedor5,
+    .contenedor6,
+    .contenedor7 {
+      overflow: hidden;
+    }
+    .TecladosyMause {
+        width: 768px;
+        float: left;
+        border: 1px;
+    }
+    .Monitores {
+        width: 768px;
+        float: left;
+        border: 1px;
+    }
+    .DiscosDuros {
+        width: 768px;
+        float: left;
+        border: 1px;
+    }
+    .Diademas {
+        width: 768px;
+        float: left;
+        border: 1px;
+    }
+    .Routers{
+        width: 768px;
+        float: left;
+        border: 1px;
+    }
+    .SillasGamer {
+        width: 768px;
+        float: left;
+        border: 1px;
+    }
+    .PortátilesGaming {
+        width: 768px;
+        float: left;
+        border: 1px;
+    }
+}
+@media (max-width:425px){
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        width: 425px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header,
+    nav,
+    main,
+    aside,
+    footer {
+        color: white;
+    }
+    header,
+    nav,
+    footer {
+     width: 425px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+    header {
+        height: 100px;
+        background-color: #5cc5ef;
+    }
+    nav {
+        height: 300px;
+        border: 2px solid black;
+        background-color: #ffb745;
+    }
+    main {
+        width: 425px;
+        background-color: #344d90;
+    }
+    aside {
+        width: 425px;
+        height: 900px;
+        background-color: #344d90;
+    }
+    footer {
+        height: 300px;
+        background-color: rgb(119, 119, 119);
+    }
+    .contenedor1,
+    .contenedor2,
+    .contenedor3,
+    .contenedor4,
+    .contenedor5,
+    .contenedor6,
+    .contenedor7 {
+      overflow: hidden;
+    }
+    .TecladosyMause {
+        width: 425px;
+        float: left;
+        border: 1px;
+    }
+    .Monitores {
+        width: 425px;
+        float: left;
+        border: 1px;
+    }
+    .DiscosDuros {
+        width: 425px;
+        float: left;
+        border: 1px;
+    }
+    .Diademas {
+        width: 425px;
+        float: left;
+        border: 1px;
+    }
+    .Routers{
+        width: 425px;
+        float: left;
+        border: 1px;
+    }
+    .SillasGamer {
+        width: 425px;
+        float: left;
+        border: 1px;
+    }
+    .PortátilesGaming {
+        width: 425px;
+        float: left;
+        border: 1px;
+    }
+}
